@@ -1,0 +1,61 @@
+.title,
+.main-block {
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+
+.container {
+    max-width: 768px;
+}
+
+.video {
+    width: 540px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index: 998;
+    
+}
+
+.smile img {
+    position: relative;
+    border-radius: 100%;
+    top: 50px;
+    left: 600px;
+    z-index: 999;
+    box-shadow: 0 15px 32px 0 rgba(0,0,0,0.2);;
+}
+
+.on-tablet {
+    display: none;
+}
+
+.drink {
+    position: absolute;
+    top: 270px;
+    left: -80px;
+    z-index: -1;
+}
+
+.drink img {
+    width: 300px;
+    height: 380px;
+}
+
+.main-block {
+    z-index: 1;
+}
+
+.popcorn {
+    position: absolute;
+    left: 350px;
+}
+
+.popcorn img {
+    width: 400px;
+    height: 380px;
+}
+
+
+ 
