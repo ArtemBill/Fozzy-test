@@ -1,19 +1,28 @@
-.title,
-.main-block {
+.title h2,
+.main-block h2 {
     font-size: 24px;
     font-weight: 300;
-    
 }
 
 .container {
     max-width: 768px;
 }
 
+.wrapper {
+    max-width: 700px;
+}
+
+.image {
+    margin: 40px 0 40px 0;
+}
+
+.subscribe {
+    margin: 30px 0 30px 0;
+}
+
 .video {
     width: 540px;
     height: 350px;
-    border: 1px solid black;
-    border-radius: 10px;
     z-index: 998;
     
 }
@@ -33,7 +42,7 @@
 
 .drink {
     position: absolute;
-    top: 270px;
+    top: 230px;
     left: -80px;
     z-index: -1;
 }
@@ -50,6 +59,8 @@
 .popcorn {
     position: absolute;
     left: 350px;
+    z-index: -1;
+
 }
 
 .popcorn img {
@@ -57,5 +68,15 @@
     height: 380px;
 }
 
-
+.green-button h2,
+.red-button h2 {
+    font-size: 15px;
+    font-weight: 600;
+}
  
+
+.smile,
+.drink,
+.popcorn {
+    display: revert;
+}
