@@ -45,18 +45,25 @@
 
 .green-button,
 .red-button {
+    font-family: "Intro",Arial, sans-serif;
+    font-size: 14px;
+    width: 250px;
+    display: block;
     margin: 0 auto;
-    width: 240px;
-    line-height: 50px;
     color:#fff;
     border-radius: 27px;
     box-shadow: 0 15px 68px 0 rgba(0,0,0,0.2);
     text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    letter-spacing: 2px;
 
 }
 
 .green-button {
     background: #27D481;
+    margin-bottom: 30px;
 }
 
 .red-button {
@@ -68,7 +75,7 @@
     background-image: url("img/bg-green.jpg");
     color: #fff;
     text-align: center;
-    
+    padding-bottom: 30px;
 }
 
 .video {
@@ -76,12 +83,6 @@
     height: 150px;
     border: 1px solid black;
     border-radius: 10px;
-}
-
-.green-button h2,
-.red-button h2 {
-    font-family: "Intro",Arial, sans-serif;
-    font-size: 14px;
 }
  
 .smile,

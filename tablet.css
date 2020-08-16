@@ -8,6 +8,11 @@
     max-width: 768px;
 }
 
+.wrapper-background {
+    max-width: 800px;
+    background: url("img/bg-white.jpg");
+    background-position: -465px -130px;
+}
 .wrapper {
     max-width: 700px;
 }
@@ -68,15 +73,19 @@
     height: 380px;
 }
 
-.green-button h2,
-.red-button h2 {
+.green-button ,
+.red-button {
+    width: 250px;
     font-size: 15px;
     font-weight: 600;
 }
- 
 
 .smile,
 .drink,
 .popcorn {
     display: revert;
+}
+
+.slogan h2 {
+    padding: 50px;
 }
