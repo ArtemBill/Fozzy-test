@@ -9,15 +9,15 @@
 }
 
 .wrapper-background {
-    max-width: 800px;
     background: url("img/bg-white.jpg");
     background-position: -465px -130px;
 }
+
 .wrapper {
-    max-width: 700px;
+    padding: 0 50px;
 }
 
-.image {
+.header {
     margin: 40px 0 40px 0;
 }
 
@@ -32,12 +32,21 @@
     
 }
 
-.smile img {
+.big-smile img {
     position: relative;
     border-radius: 100%;
-    top: 50px;
+    top: -65px;
     left: 600px;
     z-index: 999;
+    box-shadow: 0 15px 32px 0 rgba(0,0,0,0.2);;
+}
+
+.small-smile img {
+    position: relative;
+    border-radius: 100%;
+    top: -32px;
+    left: 30px;
+    z-index: 998;
     box-shadow: 0 15px 32px 0 rgba(0,0,0,0.2);;
 }
 
@@ -80,12 +89,15 @@
     font-weight: 600;
 }
 
-.smile,
+.big-smile,
+.small-smile,
 .drink,
 .popcorn {
-    display: revert;
+    display: block;
 }
 
 .slogan h2 {
     padding: 50px;
 }
+
+

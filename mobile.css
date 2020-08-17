@@ -16,16 +16,25 @@
     
 }
 
-.wrapper {
-    max-width: 300px;
-    margin: 0 auto;
+.description {
+    padding: 0 30px;
 }
 
 
-.image {
+.header {
     display: flex;
     justify-content: space-between;
 }
+
+.logo-burger,
+.logo-flag {
+    height: 20px;
+}
+
+.logo-fozzy {
+    height: 25px;
+}
+
 
 .title h2,
 .main-block h2 {
@@ -85,8 +94,15 @@
     border-radius: 10px;
 }
  
-.smile,
+.big-smile,
+.small-smile,
 .drink,
 .popcorn {
     display: none;
+    height: 0;
+}
+
+.price,
+.menu {
+    display:none;
 }

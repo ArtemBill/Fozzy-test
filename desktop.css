@@ -1,7 +1,140 @@
-.container {
-    min-width: 1200px;
+@font-face {
+    font-family: "Myriad Pro Cond";
+    src: url("Myriad\ Pro\ Cond.otf");
 }
 
-.image {
+.container {
+    max-width: 1200px;
+}
+
+.wrapper-background {
+    background: url("img/bg-white.jpg");
+    background-position: -300px -130px;
+    margin: 0 auto;
+
+}
+ 
+.drink {
+    position: absolute;
+    top: 230px;
+    left: 90px;
+    z-index: -1;
+}
+
+.popcorn {
+    left: 592px;
+}
+
+.big-smile img {
+    left: 815px;
+}
+
+.small-smile img {
+    left: 145px;
+}
+
+.green-button {
+    background: #27D481;
+    margin-bottom: 70px;
+}
+
+.price {
+    position: absolute;
+    font-family: "Intro",Arial, sans-serif;
+    background: lightcoral;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    transform: rotate(15deg);
+    top: 82px;
+    right: 120px;
+}
+
+    .price h2 {
+        font-size: 40px;
+        color: white;
+    }
+
+    .price h2::before,
+    .price h2::after {
+        position: absolute;
+        font-size: 13px;
+        opacity: 0.5;
+    }
+
+    .price h2::before {
+        content: "от";
+        left: 30px;
+        top: 50px;
+    }
+
+    .price h2::after {
+        content: "в месяц";
+        right: 30px;
+        bottom: 40px;
+    }
+
+
+.burger {
     display: none;
 }
+
+ul li {
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+
+ul li:hover {
+    color:#ff7200;
+}
+
+
+.menu {
+    display: inline-block;
+    list-style-type: none;
+    font-family: "Myriad Pro Cond",Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #0f5ee0;
+}
+
+.enter,
+.purchase {
+    display: inline-block;
+    border-radius: 25px;
+    
+}
+
+.enter-button,
+.purchase-button {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.enter-button {
+    background: #ff7200;
+    padding: 10px 30px;
+    margin-right: -30px;
+}
+
+.purchase-button {
+    background: #27d481;
+    padding: 10px 15px;
+    margin-right: -30px;
+}
+
+.icon-share {
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url("img/icon-share.png");
+    background-position: 1px -80px;
+}
+
