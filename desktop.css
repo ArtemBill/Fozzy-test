@@ -13,7 +13,12 @@
     margin: 0 auto;
 
 }
- 
+
+.title,
+.slogan {
+    font-size: 27px;
+}
+
 .drink {
     position: absolute;
     top: 230px;
@@ -29,29 +34,34 @@
     left: 815px;
 }
 
+.small-smile{
+    display: block;
+}
+
 .small-smile img {
     left: 145px;
 }
 
-.green-button {
+.btn-green {
     background: #27D481;
-    margin-bottom: 70px;
+    margin-bottom: 40px;
+    margin-top: -7px;
 }
 
 .price {
     position: absolute;
     font-family: "Intro",Arial, sans-serif;
     background: lightcoral;
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 100%;
     color: white;
     align-items: center;
     display: flex;
     justify-content: center;
     transform: rotate(15deg);
-    top: 82px;
-    right: 120px;
+    top: 176px;
+    right: 16px;
 }
 
     .price h2 {
@@ -79,7 +89,7 @@
     }
 
 
-.burger {
+.logo-burger {
     display: none;
 }
 
@@ -131,10 +141,14 @@ ul li:hover {
 }
 
 .icon-share {
+    position: relative;
     display: block;
-    height: 40px;
-    width: 40px;
+    height: 28px;
+    width: 30px;
     background: url("img/icon-share.png");
-    background-position: 1px -80px;
+    background-position: 1px -140px;
 }
 
+.icon-share:hover {
+    background-position: 1px -112px;
+}

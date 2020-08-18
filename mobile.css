@@ -11,24 +11,30 @@
 
 
 .container {
-    max-width: 320px;
+    max-width: 355px;
     margin: 10px auto;
     
 }
 
 .description {
     padding: 0 30px;
+    position: relative;
 }
 
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
+    padding-top: 0;
+}
+
+.icon-share {
+    position: absolute;
 }
 
 .logo-burger,
 .logo-flag {
-    height: 20px;
+    height: 17px;
 }
 
 .logo-fozzy {
@@ -36,12 +42,18 @@
 }
 
 
-.title h2,
+.title,
 .main-block h2 {
     font-family: "Intro",Arial, sans-serif;
     font-size: 21px;
     font-weight: 300;
     text-align: center;
+} 
+
+.title {
+    margin-top: 76px;
+    line-height: 39px;
+    letter-spacing: 4px;
 }
 
 .subscribe {
@@ -49,14 +61,22 @@
     font-size: 16px;
     color: rgb(74, 111, 160);
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    line-height: 19px;
 }
 
-.green-button,
-.red-button {
+.slogan {
+    letter-spacing: 4px;
+    line-height: 38px;
+    padding-bottom: 60px;
+}
+
+.btn {
     font-family: "Intro",Arial, sans-serif;
     font-size: 14px;
-    width: 250px;
+    width: 265px;
     display: block;
     margin: 0 auto;
     color:#fff;
@@ -65,18 +85,21 @@
     text-align: center;
     text-decoration: none;
     padding: 10px 30px;
-    margin-top: 30px;
-    letter-spacing: 2px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+    line-height: 40px;
 
 }
 
-.green-button {
+.btn-green {
     background: #27D481;
     margin-bottom: 30px;
 }
 
-.red-button {
+.btn-red {
     background: #FF634E;
+    margin-top: 65px;
+    margin-bottom: 30px;
 }
 
 .main-block  {
@@ -85,11 +108,13 @@
     color: #fff;
     text-align: center;
     padding-bottom: 30px;
+    padding-top: 68px;
+    margin-top: 65px;
 }
 
 .video {
-    width: 280px;
-    height: 150px;
+    width: 300px;
+    height: 165px;
     border: 1px solid black;
     border-radius: 10px;
 }
@@ -97,12 +122,9 @@
 .big-smile,
 .small-smile,
 .drink,
-.popcorn {
-    display: none;
-    height: 0;
-}
-
+.popcorn,
 .price,
 .menu {
-    display:none;
+    display: none;
 }
+

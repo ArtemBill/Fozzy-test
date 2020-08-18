@@ -1,28 +1,38 @@
-.title h2,
+.title,
 .main-block h2 {
     font-size: 24px;
     font-weight: 300;
 }
 
+.title {
+    letter-spacing: 2px;
+    margin-top: 108px;
+}
+
 .container {
-    max-width: 768px;
+    max-width: 853px;
+}
+
+.description {
+    padding: 0 62px;
 }
 
 .wrapper-background {
     background: url("img/bg-white.jpg");
-    background-position: -465px -130px;
+    background-position: -404px -127px;
 }
 
 .wrapper {
     padding: 0 50px;
 }
 
-.header {
-    margin: 40px 0 40px 0;
+header {
+    margin: 40px 0px 40px 10px;
 }
 
 .subscribe {
-    margin: 30px 0 30px 0;
+    margin: 66px 0 80px 0;
+    line-height: 17px;
 }
 
 .video {
@@ -35,8 +45,8 @@
 .big-smile img {
     position: relative;
     border-radius: 100%;
-    top: -65px;
-    left: 600px;
+    top: -2px;
+    left: 675px;
     z-index: 999;
     box-shadow: 0 15px 32px 0 rgba(0,0,0,0.2);;
 }
@@ -54,11 +64,18 @@
     display: none;
 }
 
-.drink {
+.main-block {
+    z-index: 1;
+}
+
+.drink,
+.popcorn {
     position: absolute;
-    top: 230px;
-    left: -80px;
     z-index: -1;
+}
+.drink {
+    top: 230px;
+    left: -60px;
 }
 
 .drink img {
@@ -66,15 +83,8 @@
     height: 380px;
 }
 
-.main-block {
-    z-index: 1;
-}
-
 .popcorn {
-    position: absolute;
-    left: 350px;
-    z-index: -1;
-
+    left: 375px;
 }
 
 .popcorn img {
@@ -82,22 +92,31 @@
     height: 380px;
 }
 
-.green-button ,
-.red-button {
-    width: 250px;
+.btn-green,
+.btn-red {
+    width: 280px;
     font-size: 15px;
     font-weight: 600;
+    letter-spacing: 4px;
+}
+
+.btn-green {
+    margin-bottom: 42px;
 }
 
 .big-smile,
-.small-smile,
 .drink,
 .popcorn {
     display: block;
 }
 
-.slogan h2 {
-    padding: 50px;
+.big-smile,
+.small-smile {
+    height: 0;
+}
+
+.slogan {
+    letter-spacing: 3px;
 }
 
 
