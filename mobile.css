@@ -5,67 +5,126 @@
 }
  
 @font-face {
-    font-family: Intro;
-    src: url(Intro1.otf);
+    font-family: "Intro";
+    src: url("INTRO.otf");
 }
 
 
 .container {
-    max-width: 360px;
+    max-width: 355px;
     margin: 10px auto;
     
 }
 
-.image {
-    display: flex;
-    justify-content: space-between;
+.description {
+    padding: 0 30px;
+    position: relative;
 }
 
-.title {
-    font-family: Intro;
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0;
+}
+
+.icon-share {
+    position: absolute;
+}
+
+.logo-burger,
+.logo-flag {
+    height: 17px;
+}
+
+.logo-fozzy {
+    height: 25px;
+}
+
+
+.title,
+.main-block h2 {
+    font-family: "Intro",Arial, sans-serif;
     font-size: 21px;
+    font-weight: 300;
     text-align: center;
+} 
+
+.title {
+    margin-top: 76px;
+    line-height: 39px;
+    letter-spacing: 4px;
 }
 
 .subscribe {
-    font-family: Arial;
+    font-family: Arial,sans-serif;
     font-size: 16px;
     color: rgb(74, 111, 160);
     text-align: center;
-    font-weight: bold;
+    font-weight: 700;
+    margin-top: 40px;
+    letter-spacing: 0px;
+    line-height: 19px;
 }
 
-.green-button,
-.red-button {
-    margin: 0 50px;
-    line-height: 50px;
-    font-family: Intro;
+.slogan {
+    letter-spacing: 4px;
+    line-height: 38px;
+    padding-bottom: 60px;
+}
+
+.btn {
+    font-family: "Intro",Arial, sans-serif;
     font-size: 14px;
+    width: 265px;
+    display: block;
+    margin: 0 auto;
     color:#fff;
     border-radius: 27px;
     box-shadow: 0 15px 68px 0 rgba(0,0,0,0.2);
     text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+    line-height: 40px;
 
 }
 
-.green-button {
+.btn-green {
     background: #27D481;
+    margin-bottom: 30px;
 }
 
-.red-button {
+.btn-red {
     background: #FF634E;
+    margin-top: 65px;
+    margin-bottom: 30px;
 }
 
-.main-block {
+.main-block  {
     position: relative;
     background-image: url("img/bg-green.jpg");
     color: #fff;
-    font-family: Intro;
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 68px;
+    margin-top: 65px;
 }
 
 .video {
-    width: 320px;
-    height: 150px;
+    width: 300px;
+    height: 165px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+ 
+.big-smile,
+.small-smile,
+.drink,
+.popcorn,
+.price,
+.menu {
+    display: none;
 }
 
