@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Myriad Pro Cond";
-    src: url("Myriad\ Pro\ Cond.otf");
+    src: url("../fonts/Myriad\ Pro\ Cond.otf");
 }
 
 .container {
@@ -8,7 +8,7 @@
 }
 
 .wrapper-background {
-    background: url("img/bg-white.jpg");
+    background: url("../img/bg-white.jpg");
     background-position: -300px -130px;
     margin: 0 auto;
 
@@ -145,7 +145,7 @@ ul li:hover {
     display: block;
     height: 28px;
     width: 30px;
-    background: url("img/icon-share.png");
+    background: url("../img/icon-share.png");
     background-position: 1px -140px;
 }
 
